@@ -2,7 +2,7 @@ package zad2;
 
 import automat.LetterDoesNotExistException;
 
-public enum Letters2 {
+enum Letters2 {
     A('a'),
     B('b');
 

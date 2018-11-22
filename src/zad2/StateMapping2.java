@@ -2,7 +2,7 @@ package zad2;
 
 import automat.StateMapping;
 
-public class StateMapping2 extends StateMapping {
+class StateMapping2 extends StateMapping {
 
     public StateMapping2() {
         this.stateMap.put("S0", new State02());

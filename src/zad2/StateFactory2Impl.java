@@ -7,11 +7,7 @@ import automat.StateMapping;
 
 public class StateFactory2Impl implements StateFactory {
 
-    private StateMapping mapping;
-
-    public StateFactory2Impl(StateMapping mapping) {
-        this.mapping = mapping;
-    }
+    private StateMapping mapping = new StateMapping2();
 
     @Override
     public State getState(State state, char newLetter) throws LetterDoesNotExistException {
